@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - SHUNKAN</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body class="contact-body">
+
+    <nav class="main-nav dark-nav">
+        <span class="logo">SHUNKAN</span>
+        <div class="nav-links">
+            <a href="index.html" class="nav-item">Portfolio</a>
+            <a href="about.html" class="nav-item">About</a>
+            <a href="contact.html" class="nav-item active">Contact</a>
+        </div>
+    </nav>
+    
+    <div class="contact-container">
+        <div class="contact-header">
+            <h1>Book Your Instant</h1>
+            <p>Let's discuss your next project in fashion, editorial, or art.</p>
+        </div>
+
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="project-type">Project Type</label>
+                <select id="project-type" name="project-type" required>
+                    <option value="">Select Category</option>
+                    <option value="fashion">Fashion Editorial</option>
+                    <option value="street">Street Lookbook</option>
+                    <option value="commission">Private Commission</option>
+                    <option value="other">Other Inquiry</option>
+                </select>
+            </div>
+            <div class="form-group full-width">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+            
+            <button type="submit" class="cta-button submit-button">SEND INQUIRY</button>
+        </form>
+
+        <div class="contact-info">
+            <p>Email: <a href="mailto:contact@shunkan.photo">contact@shunkan.photo</a></p>
+            <p>Phone: +1 234 567 8900</p>
+            <div class="social-links">
+                <a href="#"><img src="instagram.svg" alt="Instagram Icon"></a>
+                <a href="#"><img src="behance.svg" alt="Behance Icon"></a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
